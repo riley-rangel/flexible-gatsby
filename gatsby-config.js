@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Flexible Gatsby`,
+    title: `Riley Rangel`,
     description: `I am a software engineer focused on front-end development. Seeking opportunities to be humbled and learn new things.`,
     author: `Riley Rangel`,
     siteUrl: `https://github.com/riley-rangel/flexible-gatsby`,
