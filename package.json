@@ -32,7 +32,7 @@
     "eslint-plugin-react": "^7.19.0",
     "prettier": "^1.19.1"
   },
-  "homepage": "https://github.com/wangonya/flexible-gatsby",
+  "homepage": "https://github.com/riley-rangel/flexible-gatsby",
   "keywords": [
     "gatsby"
   ],
@@ -40,7 +40,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wangonya/flexible-gatsby.git"
+    "url": "git+https://github.com/riley-rangel/flexible-gatsby.git"
   },
   "scripts": {
     "build": "gatsby build",
