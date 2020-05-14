@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-import DefaultLayout from '../components/layout'
-import SEO from '../components/seo'
+import DefaultLayout from '../components/layout';
+import SEO from '../components/seo';
 
 class NotFoundPage extends React.Component {
   render() {
-    const { data } = this.props
+    const { data } = this.props;
 
     return (
       <DefaultLayout>
@@ -13,8 +13,8 @@ class NotFoundPage extends React.Component {
         <h1>That page doesn&#39;t exist.</h1>
         <br />
       </DefaultLayout>
-    )
+    );
   }
 }
 
-export default NotFoundPage
+export default NotFoundPage;

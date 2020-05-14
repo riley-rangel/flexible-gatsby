@@ -1,7 +1,7 @@
-import { Link } from 'gatsby'
-import React from 'react'
+import { Link } from 'gatsby';
+import React from 'react';
 
-import Logo from './pic.jpg'
+import Logo from './pic.jpg';
 
 const Sidebar = ({ siteMetadata }) => (
   <>
@@ -78,6 +78,6 @@ const Sidebar = ({ siteMetadata }) => (
       </footer>
     </aside>
   </>
-)
+);
 
-export default Sidebar
+export default Sidebar;

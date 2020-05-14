@@ -18,10 +18,10 @@ const Tags = ({ pageContext, data }) => {
             const { slug } = node.fields;
             return (
               <span key={slug}>
-                <Link to={slug}>
-                  {title}
-                </Link>
-                <small><span> | {date}</span></small>
+                <Link to={slug}>{title}</Link>
+                <small>
+                  <span> | {date}</span>
+                </small>
               </span>
             );
           })}
@@ -34,7 +34,7 @@ const Tags = ({ pageContext, data }) => {
   );
 };
 
-export default Tags
+export default Tags;
 
 export const pageQuery = graphql`
   query($tag: String) {

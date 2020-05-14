@@ -1,19 +1,19 @@
-import React from 'react'
-import { Link, graphql } from 'gatsby'
+import React from 'react';
+import { Link, graphql } from 'gatsby';
 
-import DefaultLayout from '../components/layout'
-import SEO from '../components/seo'
+import DefaultLayout from '../components/layout';
+import SEO from '../components/seo';
 
 class BlogIndex extends React.Component {
   render() {
-    const { data } = this.props
-    const siteTitle = data.site.siteMetadata.title
-    const posts = data.allMarkdownRemark.edges
-    const { currentPage, numPages } = this.props.pageContext
-    const isFirst = currentPage === 1
-    const isLast = currentPage === numPages
-    const prevPage = currentPage - 1 === 1 ? '/' : (currentPage - 1).toString()
-    const nextPage = (currentPage + 1).toString()
+    const { data } = this.props;
+    const siteTitle = data.site.siteMetadata.title;
+    const posts = data.allMarkdownRemark.edges;
+    const { currentPage, numPages } = this.props.pageContext;
+    const isFirst = currentPage === 1;
+    const isLast = currentPage === numPages;
+    const prevPage = currentPage - 1 === 1 ? '/' : (currentPage - 1).toString();
+    const nextPage = (currentPage + 1).toString();
 
     return (
       <DefaultLayout>
@@ -48,7 +48,7 @@ class BlogIndex extends React.Component {
                 </span>
               </div>
             </article>
-          )
+          );
         })}
 
         <div className="container">
@@ -77,11 +77,11 @@ class BlogIndex extends React.Component {
           </nav>
         </div>
       </DefaultLayout>
-    )
+    );
   }
 }
 
-export default BlogIndex
+export default BlogIndex;
 
 export const pageQuery = graphql`
   query blogPageQuery($skip: Int!, $limit: Int!) {
@@ -121,4 +121,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;

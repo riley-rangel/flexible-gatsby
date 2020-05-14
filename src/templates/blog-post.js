@@ -1,15 +1,15 @@
-import React from 'react'
-import { Link, graphql } from 'gatsby'
+import React from 'react';
+import { Link, graphql } from 'gatsby';
 import { kebabCase } from 'lodash';
-import Img from 'gatsby-image'
+import Img from 'gatsby-image';
 
-import DefaultLayout from '../components/layout'
-import SEO from '../components/seo'
+import DefaultLayout from '../components/layout';
+import SEO from '../components/seo';
 
 class BlogPostTemplate extends React.Component {
   render() {
-    const post = this.props.data.markdownRemark
-    const { previous, next } = this.props.pageContext
+    const post = this.props.data.markdownRemark;
+    const { previous, next } = this.props.pageContext;
 
     return (
       <DefaultLayout>
@@ -40,7 +40,9 @@ class BlogPostTemplate extends React.Component {
                   {post.frontmatter.tags &&
                     post.frontmatter.tags.map(tag => (
                       <span key={tag}>
-                        <Link  className="tag" to={`/tags/${kebabCase(tag)}/`}># {tag}</Link>
+                        <Link className="tag" to={`/tags/${kebabCase(tag)}/`}>
+                          # {tag}
+                        </Link>
                       </span>
                     ))}
                 </div>
@@ -49,11 +51,11 @@ class BlogPostTemplate extends React.Component {
           </div>
         </article>
       </DefaultLayout>
-    )
+    );
   }
 }
 
-export default BlogPostTemplate
+export default BlogPostTemplate;
 
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
@@ -85,4 +87,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;
