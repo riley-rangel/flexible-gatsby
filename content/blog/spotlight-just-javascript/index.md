@@ -6,7 +6,7 @@ img: javascript.jpg # Add image post (optional)
 tags: [Learn, Software, JavaScript] # add tag
 ---
 
-Hi. As this blog has been taking shape, I have felt the need to identify different types of posts. Introducing "Spotlights". These "spotlight" posts will be fun or interesting things that I have found on the internet related to software development that I hope you, the reader, will find enjoyable as well. I'll write up a little introduction, maybe some thoughts, and then send them out for you to check out - enjoy!
+Hi. As this blog has been taking shape, I have been thinking it would be neat to identify different types of posts. Introducing "Spotlights". These "spotlight" posts will be fun or interesting things that I have found on the internet related to software development that I hope you, the reader, will find enjoyable as well. I'll write up a little introduction, maybe some thoughts, and then send them out for you to check out - enjoy!
 
 ## Introduction
 
@@ -14,11 +14,11 @@ If you are in the JavaScript/React world, you have most likely heard of [Dan Abr
 
 ### What is it?
 
-Simply, a JavaScript fundamentals course for those who feel they do not have a firm grasp on the basics. Dan is teaming up with [Maggie Appleton](https://illustrated.dev/) to put together a rough draft of the course, and allowing fellow JavaScript enthusiasts to read them before they are widely distributed.
+Simply, a JavaScript fundamentals course for those who feel they do not have a firm grasp on the basics. Dan is teaming up with [Maggie Appleton](https://illustrated.dev/) to put together a rough draft of the course, and allowing fellow JavaScript enthusiasts to read them before they are widely distributed and provide feedback on the ideas.
 
 ### What can I do?
 
-If you would like to learn more, I encourage you to visit the [site](https://justjavascript.com/) and consider signing up.
+If you would like to learn more, I encourage you to visit the [site](https://justjavascript.com/) and consider signing up to help out.
 
 ## Why am I Spotlighting this site?
 
